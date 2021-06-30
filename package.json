@@ -1,0 +1,24 @@
+{
+  "name": "wm-translate-api",
+  "version": "1.0.0",
+  "description": "wm-translate-api lets you dynamically translate between languages using web scraping with puppeteer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wadiemendja/wm-translate-api.git"
+  },
+  "keywords": ["translate", "google-translate-api", "translate-api", "google-translate-open-api"],
+  "author": "Wadie Mendja <wadiemendja@gmail.com> (mendjawadie.web.app)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wadiemendja/wm-translate-api/issues"
+  },
+  "homepage": "https://github.com/wadiemendja/wm-translate-api#readme",
+  "dependencies": {
+    "puppeteer": "^10.1.0"
+  }
+}
