@@ -7,7 +7,7 @@ async function translate(text, sl, tl) {
     try {
         await page.goto(GT, { waitUntil: 'networkidle2' });
         const output = await page.evaluate(() => {
-            const sel = document.querySelector("#yDmH0d > c-wiz > div > div.WFnNle > c-wiz > div.OlSOob > c-wiz > div.ccvoYb > div.AxqVh > div.OPPzxe > c-wiz.P6w8m.BDJ8fb > div.dePhmb > div > div.J0lOec")
+            const sel = document.querySelector("#yDmH0d > c-wiz > div > div.WFnNle > c-wiz > div.OlSOob > c-wiz > div.ccvoYb > div.AxqVh > div.OPPzxe > c-wiz.P6w8m.BDJ8fb > div.dePhmb > div > div.J0lOec");
             return sel.innerText;
         });
         await browser.close();
