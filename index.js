@@ -5,7 +5,7 @@ async function translate(text, sl, tl) {
     const page = await browser.newPage();
     const GT = 'https://translate.google.com/?sl=' + sl + '&tl=' + tl + '&text=' + text + '&op=translate';
     try {
-        await page.goto(GT, { waitUntil: 'networkidle2' });
+        await page.goto(GT, { waitUntil: 'networkidle0' });
         const output = await page.evaluate(() => {
             const sel = document.querySelector("#yDmH0d > c-wiz > div > div.WFnNle > c-wiz > div.OlSOob > c-wiz > div.ccvoYb > div.AxqVh > div.OPPzxe > c-wiz.P6w8m.BDJ8fb > div.dePhmb > div > div.J0lOec");
             return sel.innerText;
