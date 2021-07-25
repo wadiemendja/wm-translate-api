@@ -8,6 +8,7 @@ async function translate(textToTranslate, sl, tl) {
         let translations = [];
         for(let i= 0 ; i< strings.length ; i++)
             translations.push(await fetchTranslation(strings[i]));
+            console.log(translations.join(''));
         return translations.join('');    
     } else return await fetchTranslation(textToTranslate);
 
