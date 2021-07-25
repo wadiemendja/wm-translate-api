@@ -6,10 +6,10 @@ async function translate(textToTranslate, sl, tl) {
     if (textToTranslate.length > googleTranslateLimit) {
         const strings = cutString(textToTranslate, googleTranslateLimit); // table of 5000Char(limit) strings 
         let translations = [];
-        for(let i= 0 ; i< strings.length ; i++)
+        for (let i = 0; i < strings.length; i++)
             translations.push(await fetchTranslation(strings[i]));
-            console.log(translations.join(''));
-        return translations.join('');    
+        console.log(translations.join(''));
+        return translations.join('');
     } else return await fetchTranslation(textToTranslate);
 
     async function fetchTranslation(text) {
