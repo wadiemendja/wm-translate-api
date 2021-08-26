@@ -12,7 +12,7 @@
     
 <h2> How it works :</h2>
 
-    const { translate } = require('./index');
+    const { translate } = require('./translate');
 
   The translate function takes 3 arguments:
   1) a string that you wanna translate
