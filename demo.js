@@ -1,4 +1,4 @@
-const { translate } = require('./index');
+const { translate } = require('./translate');
 
 /*  
 
