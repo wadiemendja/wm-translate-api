@@ -1,8 +1,11 @@
 # wm-translate-api
  <h2> Make it work :</h2>
  
- 1- You should have NodeJS installed in you machine
- 2- Run the following command:
+ 1- Clone the repo
+ 
+ 2- You should have NodeJS installed in you machine
+
+ 3- Run the following command:
  
     npm install puppeteer
     
