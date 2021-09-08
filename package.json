@@ -17,7 +17,7 @@
     "translate-api",
     "google-translate-open-api"
   ],
-  "author": "Wadie Mendja <wadiemendja@gmail.com> (mendjawadie.web.app)",
+  "author": "Wadie Mendja <wadiemendja@gmail.com> (wadiemendja.web.app)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/wadiemendja/wm-translate-api/issues"
